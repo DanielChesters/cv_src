@@ -6,7 +6,7 @@ pdf :
 	cp temp/cv.pdf .
 
 release : pdf
-	cp cv.pdf ../CV_Daniel_Chesters_`date +%d_%m_%Y`.pd f
+	cp cv.pdf ../CV_Daniel_Chesters_`date +%Y_%m_%d`.pd f
 
 clean:
 	rm -fr temp cv.pdf
